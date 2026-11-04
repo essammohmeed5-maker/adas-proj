@@ -8,7 +8,7 @@ import { SectionLabel } from '../../shared/components/section-label/section-labe
 
 @Component({
   selector: 'app-blog',
-  imports: [FormsModule, RouterOutlet, PostCard, PageNavigation, SectionLabel],
+  imports: [FormsModule, PostCard, PageNavigation, SectionLabel],
   templateUrl: './blog.html',
   styleUrl: './blog.css'
 })
